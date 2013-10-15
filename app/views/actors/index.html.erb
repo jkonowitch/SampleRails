@@ -1,0 +1,7 @@
+<h1>All Actors</h1>
+<% @actors.each do |actor| %>
+  <div class="actor">
+    <p><%= actor.name %></p>
+    <img src="<%= actor.photo_url %>" />
+  </div>
+<% end %>

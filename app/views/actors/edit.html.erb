@@ -1,0 +1,5 @@
+<form action="/actors/<%= @actor.id %>" method="post">
+  <input type="hidden" name="_method" value="put">
+  <input type="text" name="actor[name]" />
+  <input type="text" name="actor[photo_url]" />
+</form>
