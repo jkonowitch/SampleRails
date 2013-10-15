@@ -3,5 +3,6 @@
   <div class="actor">
     <p><%= actor.name %></p>
     <img src="<%= actor.photo_url %>" />
+    <%= link_to 'Delete', actor_path(actor), :method => :delete %>
   </div>
 <% end %>
